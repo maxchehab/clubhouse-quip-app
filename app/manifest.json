@@ -1,0 +1,17 @@
+{
+  "id": "DUYAjAJ14wn",
+  "manifest_version": 1,
+  "name": "Clubhouse",
+  "version_name": "1.0",
+  "version_number": 2,
+  "sizing_mode": "fit_content",
+  "initial_height": 300,
+  "initial_width": 300,
+  "js_files": ["dist/app.js"],
+  "css_files": ["dist/app.css"],
+  "csp_sources": {
+    "script_srcs": ["https://api.clubhouse.io"],
+    "connect_srcs": ["https://api.clubhouse.io"]
+  },
+  "intercept_url_patterns": ["https://app.clubhouse.io/.*/epic/(d+)"]
+}
